@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Langar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  justify-content: space-evenly;
+  width: 80vw;
+  margin-left: 10vw;
+}
+
+tr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80vw;
+  text-align: left;
+  padding-block: 12px;
+  border-bottom: 1px solid #aaa;
+}
+
+td,
+th {
+  width: 20%;
+}
+tr td:nth-child(4) {
+  text-transform: capitalize;
+}
+
+.button-group {
+  position: absolute;
+  bottom: 1vh;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button {
+  background-color: #209cee;
+  margin: 6px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  border: 1px solid #209cee;
+  color: whitesmoke;
+  font-weight: 300;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+}
+
+button:disabled {
+  background-color: white;
+  color: #209cee;
+}
+
+.editUser {
+  padding: 8px;
+  margin: 8px;
+}
+
+.editButton {
+  text-align: center;
+  padding: 12px;
+  background: #209cee;
+  border-radius: 12px;
+  color: white;
+}
+.editButton:hover {
+  cursor: pointer;
+}
+
+.searchBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.searchBar input {
+  padding: 10px;
+  width: 80vw;
+}
+
+.header {
+  background-color: #209cee;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  font-family: 300;
+  color: #fa5;
+  font-family: "Langar";
+  font-size: 30px;
+}
